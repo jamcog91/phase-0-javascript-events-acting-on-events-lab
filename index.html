@@ -12,5 +12,19 @@
     <div id="dodger" style="bottom: 0px; left: 180px;"></div>
   </div>
   <script type="text/javascript" src="index.js"></script>
+  function moveDodgerLeft() {
+    const leftNumbers = dodger.style.left.replace("px", "");
+    const left = parseInt(leftNumbers, 10);
+  
+    if (left > 0) {
+      dodger.style.left = `${left - 1}px`;
+    }
+  }
+  function moveDodgerLeft() {
+    const leftNumbers = dodger.style.left.replace("px", "");
+    const left = parseInt(leftNumbers, 10);
+    if (left > 0) {
+      DODGER.style.left = `${left + 1}
+  }
 </body>
 </html>
